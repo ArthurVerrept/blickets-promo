@@ -1,10 +1,13 @@
 <template>
-  <main class="relative h-screen ">
-    <Header />
+  <main
+    ref="home"
+    class="relative h-screen"
+  >
+    <Header @goto="(n) => goto(n)" />
     <LandingPage />
-    <Info />
-    <AppDemo />
-    <Roadmap />
+    <Info id="info" />
+    <AppDemo id="demo" />
+    <Roadmap id="roadmap"/>
     <Contact />
   </main>
 </template>
@@ -26,6 +29,17 @@ export default {
     AppDemo,
     Roadmap,
     Contact,
+  },
+
+  methods: {
+    goto(refName: string) {
+      console.log(refName);
+      const element = document.getElementById(refName);
+      console.log(element);
+      const { top } = element.getBoundingClientRect();
+      console.log(top);
+      window.scrollTo(0, top);
+    },
   },
 };
 </script>
