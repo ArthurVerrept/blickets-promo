@@ -32,7 +32,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue';
+
+export default defineComponent({
   name: 'LandingPage',
   data() {
     return {
@@ -47,21 +49,16 @@ export default {
     };
   },
   mounted() {
-    this.changeText();
+    [this.word] = this.words;
+    let i = 0;
+    window.setInterval(() => {
+      this.word = this.words[i];
+      i += 1;
+      if (i >= this.words.length) {
+        i = 0;
+      }
+    }, 1200);
   },
-  methods: {
-    changeText() {
-      [this.word] = this.words;
-      let i = 0;
-      window.setInterval(() => {
-        this.word = this.words[i];
-        i += 1;
-        if (i >= this.words.length) {
-          i = 0;
-        }
-      }, 1200);
-    },
-  },
-};
+});
 
 </script>
