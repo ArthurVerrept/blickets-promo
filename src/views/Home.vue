@@ -5,6 +5,7 @@
     <Info />
     <AppDemo />
     <Roadmap />
+    <Contact />
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import LandingPage from './LandingPage.vue';
 import Info from './Info.vue';
 import AppDemo from './AppDemo.vue';
 import Roadmap from './Roadmap.vue';
+import Contact from './Contact.vue';
 
 export default {
   name: 'Home',
@@ -23,6 +25,7 @@ export default {
     Info,
     AppDemo,
     Roadmap,
+    Contact,
   },
 };
 </script>

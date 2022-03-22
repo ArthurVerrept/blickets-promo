@@ -72,7 +72,7 @@
     </div>
     <div class="mx-36 flex">
       <div class="flex-none border-l-2 border-[#E43C4A]" />
-      <div class="grow px-4 flex flex-col justify-center mb-10">
+      <div class="px-4 flex flex-col justify-center mb-10">
         <svg
           width="18"
           height="18"
@@ -103,15 +103,25 @@
           Write smart contract
         </h1>
         <p class="font-['Lato']">
-          y putting your tickets to the blockchain using our service,
-          you provide both yourself and the customer aaannnss
-          a huge set of benefits that you could not get otherwise.
+          The smart contract is what controls, the events, the tickets, the resale and more.
+          It is the heart of our product, and so is our main priority, we will create the smart
+          contract on the
+          <a
+            class="text-underline"
+            target="_blank"
+            href="https://ethereum.org/en/"
+          >
+            ethereum
+          </a>
+          blockchain, this allows us harness the largest and
+          most widely understood crypto tech to list
+          the tickets on NFT sites like opensea in the future.
         </p>
       </div>
     </div>
     <div class="mx-36 flex">
       <div class="flex-none border-l-2 border-[#E43C4A]" />
-      <div class="grow px-4 flex flex-col justify-center mb-10">
+      <div class="px-4 flex flex-col justify-center mb-10">
         <svg
           class="fill-[#E43C4A] animate-ping"
           width="11"
@@ -143,7 +153,7 @@
     </div>
     <div class="mx-36 flex">
       <div class="flex-none border-l-2 border-[#E43C4A]" />
-      <div class="grow px-4 flex flex-col justify-center mb-10">
+      <div class="px-4 flex flex-col justify-center mb-10">
         <svg
           class="fill-[#E43C4A] animate-ping"
           width="11"
@@ -175,7 +185,7 @@
     </div>
     <div class="mx-36 flex">
       <div class="flex-none border-l-2 border-[#E43C4A]" />
-      <div class="grow px-4 flex flex-col justify-center mb-10">
+      <div class="px-4 flex flex-col justify-center mb-10">
         <svg
           class="fill-neutral-300"
           width="11"
@@ -196,7 +206,7 @@
       rounded-lg p-4 mb-10 border-neutral-300 bg-neutral-600/[.05]"
       >
         <h1 class="font-['Paytone_One'] max-w-xl text-xl pb-4">
-          Deploy Smart Contract
+          Deploy smart contract
         </h1>
         <p class="font-['Lato']">
           y putting your tickets to the blockchain using our service,
@@ -207,7 +217,7 @@
     </div>
     <div class="mx-36 flex">
       <div class="flex-none border-l-2 border-[#E43C4A]" />
-      <div class="grow px-4 flex flex-col justify-center mb-10">
+      <div class="px-4 flex flex-col justify-center mb-10">
         <svg
           class="fill-neutral-300"
           width="11"
@@ -225,10 +235,10 @@
       </div>
       <div
         class="grow outline-black border-2 border-solid
-      rounded-lg p-4 mb-10 border-neutral-300 bg-neutral-600/[.05]"
+      rounded-lg p-4 border-neutral-300 bg-neutral-600/[.05]"
       >
         <h1 class="font-['Paytone_One'] max-w-xl text-xl pb-4">
-          Publish app to app store
+          Launch
         </h1>
         <p class="font-['Lato']">
           y putting your tickets to the blockchain using our service,
