@@ -3,7 +3,7 @@
     ref="home"
     class="relative h-screen"
   >
-    <Header @goto="(n) => goto(n)" />
+    <Header @goto="(n: string) => goto(n)" />
     <LandingPage />
     <Info id="info" />
     <AppDemo id="demo" />
@@ -36,7 +36,7 @@ export default {
       console.log(refName);
       const element = document.getElementById(refName);
       console.log(element);
-      const { top } = element.getBoundingClientRect();
+      const { top } = element!.getBoundingClientRect();
       console.log(top);
       window.scrollTo(0, top);
     },
