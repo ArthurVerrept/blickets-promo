@@ -145,9 +145,10 @@
           Create iOS application
         </h1>
         <p class="font-['Lato']">
-          y putting your tickets to the blockchain using our service,
-          you provide both yourself and the customer aaannnss
-          a huge set of benefits that you could not get otherwise.
+          We are creating an iOS application for both the users and event managers
+          to use to buy and sell tickets, and organise and plan events. This app will
+          combine with our infrastructure to connect to a blockchain node to provide
+          a complete blockchain ticketing experience.
         </p>
       </div>
     </div>
@@ -177,9 +178,11 @@
           Create app infrastructure
         </h1>
         <p class="font-['Lato']">
-          y putting your tickets to the blockchain using our service,
-          you provide both yourself and the customer aaannnss
-          a huge set of benefits that you could not get otherwise.
+          Our app infrastructure is the backbone to the whole process, this will control
+          users, events, ticket scanning and more. The infrastructure will be robust enough
+          to handle any sized event, and scale up to whatever is required. This is achieved
+          by splitting our services, and delegating resources to the most utilised parts of
+          the app.
         </p>
       </div>
     </div>
@@ -209,9 +212,9 @@
           Deploy smart contract
         </h1>
         <p class="font-['Lato']">
-          y putting your tickets to the blockchain using our service,
-          you provide both yourself and the customer aaannnss
-          a huge set of benefits that you could not get otherwise.
+          Here we will deploy the smart contract to the ethereum mainnet, this will
+          kickstart our launch process. Once this is done, we can connect using a
+          blockchain node and start creating events!
         </p>
       </div>
     </div>
@@ -241,9 +244,8 @@
           Launch
         </h1>
         <p class="font-['Lato']">
-          y putting your tickets to the blockchain using our service,
-          you provide both yourself and the customer aaannnss
-          a huge set of benefits that you could not get otherwise.
+          The official launch! At this point everything is in place, and we are ready to start
+          onboarding users and event hosts.
         </p>
       </div>
     </div>
